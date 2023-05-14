@@ -10,3 +10,9 @@ class Course(models.Model):
     description = models.TextField(max_length=500)
     price = models.FloatField()
     user = models.ForeignKey(User, on_delete=models.CASCADE, name="user")
+
+    def __str__(self):
+        return self.product_code
+
+    class Meta:
+        db_table = "Course"
