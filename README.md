@@ -5,6 +5,7 @@ It is an API for purchasing online courses.
 
 ## ERD
 
+![COURSE-API](https://github.com/Geffrerson7/ONLINE-COURSES-API/assets/61089189/2b0f4d9f-0fb9-4ea1-8e93-fe4da51c88a6)
 
 ## Local Installation
 
