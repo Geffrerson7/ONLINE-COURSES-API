@@ -33,6 +33,8 @@ DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = []
 
+YOUR_ACCESS_TOKEN=os.environ.get('YOUR_ACCESS_TOKEN')
+
 
 # Application definition
 

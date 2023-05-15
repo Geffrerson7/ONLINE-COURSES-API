@@ -7,7 +7,7 @@ from rest_framework.permissions import IsAuthenticated
 
 
 class ProcessPaymentAPIView(APIView):
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
     def post(self, request):
         try:
             request_values = json.loads(request.body)
